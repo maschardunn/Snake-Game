@@ -140,12 +140,12 @@ int main(void) {
         pos[0][0]+=yVel;
         pos[0][1]+=xVel;
 
-        // Speed left/right
+        // Speed left/right as score gets higher
         if(yVel == 0 && xVel == 1)
-            usleep(125000);
-        // Speed up/down
+            usleep(125000 - (score * 5000);
+        // Speed up/down as score gets higher
         else
-            usleep(150000);
+            usleep(150000 - (score * 5000);
 
     }
 
