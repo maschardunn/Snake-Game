@@ -145,7 +145,7 @@ int main(void) {
             usleep(125000 - (score * 5000);
         // Speed up/down as score gets higher
         else
-            usleep(150000 - (score * 5000);
+            usleep(150000 - (score * 5000));
 
     }
 
@@ -214,5 +214,4 @@ void createBounds(int gameStartY, int gameStartX, int gameHeight, int gameWidth)
     for(int i = gameStartX+1; i < gameStartX + gameWidth; i++) {
         mvaddch(gameStartY + gameHeight, i, ACS_HLINE);
     }
-
 }
