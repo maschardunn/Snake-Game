@@ -1,7 +1,8 @@
+
 # Snake-Game
 My final project for CS 202 @ Indiana State University
 
-![image](https://user-images.githubusercontent.com/80560060/129496311-b542b662-b782-42e4-8a37-6e39ec85a398.png)
+![snakeGame](https://user-images.githubusercontent.com/80560060/129496519-e42623a2-7cfd-423f-9c0c-4964b0dd62cc.gif)
 
 This project requires the ncurses library to work. <br>
 <hr>
